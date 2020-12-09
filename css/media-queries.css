@@ -14,7 +14,7 @@
     /* header styles
    ------------------------------------------------------------------ */
    header .banner-text h1 {
-      font: 80px/1.1em 'opensans-bold', sans-serif;
+      font: 56px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
@@ -29,7 +29,7 @@
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
-      font: 78px/1.1em 'opensans-bold', sans-serif;
+      font: 48px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
@@ -197,7 +197,7 @@
       padding-bottom: 12px;
       padding-top: 6px;
    }
-   header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+   header .banner-text h1 { font: 41px/1.1em 'opensans-bold', sans-serif; }
    header .banner-text h3 {
       font: 16px/1.9em 'librebaskerville-regular', serif;
       width: 85%;
@@ -218,7 +218,25 @@
     /* scrolldown link */
    header .scrolldown { display: none; }
 
+   header .banner-text h2 {
+      font: 65px/0.9em 'RichieBrusher', sans-serif;
+      color: #fff;
+      letter-spacing: -2px;
+      line-height:100px;
+      margin: 0 auto 18px auto;
+      /* text-shadow: 0px 1px 3px rgba(0, 0, 0, .8); */
+      background-image:-webkit-linear-gradient(bottom,rgba(157, 4, 204, 0.767),#b603fd7c,rgb(196, 59, 171));
+   
+       -webkit-background-clip:text;
+   
+       -webkit-text-fill-color:transparent;
+   }
 
+   .center-logo{
+  
+      opacity: 85%;
+       height:125px; width:125px;
+   }
    /* About Section
    -------------------------------------------------------------------- */
    #about .profile-pic { display: none; }
@@ -357,18 +375,35 @@
    -------------------------------------------------------------------- */
    header .banner { padding-top: 24px; }
    header .banner-text h1 {
-      font: 40px/1.1em 'opensans-bold', sans-serif;      
+      font: 30px/1.1em 'opensans-bold', sans-serif;      
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {
-      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+      font: 15px/1.9em 'librebaskerville-regular', sans-serif;
       width: 90%;
    }
+   .center-logo{
   
+      opacity: 85%;
+       height:105px; width:105px;
+   }
    /* header social links */
    header .social { font-size: 20px;}
    header .social li { margin: 0 6px; }
-
+   header .banner-text h2 {
+      
+      font: 65px/0.6em 'RichieBrusher', sans-serif;
+      color: #fff;
+      letter-spacing: -2px;
+      line-height: 83px;
+      margin: 0 auto 18px auto;
+      /* text-shadow: 0px 1px 3px rgba(0, 0, 0, .8); */
+      background-image:-webkit-linear-gradient(bottom,rgba(157, 4, 204, 0.767),#b603fd7c,rgb(196, 59, 171));
+   
+       -webkit-background-clip:text;
+   
+       -webkit-text-fill-color:transparent;
+   }
    /* footer
    ------------------------------------------------------------------------ */
 

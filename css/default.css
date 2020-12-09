@@ -719,10 +719,9 @@ properly.
 
 
 .center-logo{
-   background-image: url('images/title.png');
+  
    opacity: 85%;
-    height:42px; width:42px;
-    /* background-position: -22px -44px; */
+    height:185px; width:185px;
 }
 
 

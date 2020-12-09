@@ -139,6 +139,27 @@
 }
 
 
+
+@font-face {
+    font-family: 'RichieBrusher';
+    src: url('fonts/RichieBrusher.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CabaretDisplayItalic';
+    src: url('fonts/CabaretDisplayItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CabaretDisplay';
+    src: url('fonts/CabaretDisplay.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 /*
  * FIXED for Font-Face Chrome Rendering
 ================================================================================ */
