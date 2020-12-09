@@ -59,10 +59,10 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 68px/1.1em 'opensans-bold', sans-serif;
+   font: 62px/1.1em 'opensans-bold', sans-serif;
    color: rgba(255, 255, 255, .8);
    letter-spacing: -2px;
-   margin: 0 auto 18px auto;
+   margin: 0 auto 58px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 
@@ -236,7 +236,7 @@ ul#nav li.current a { color: #e083f7; }
 }
 #about .main-col { 
    padding-right: 5%;
-   background-color: rgba(255, 255, 255, 0.3);
+   background-color: rgba(241, 211, 248, 0.767);
    padding-top: 20px;
    border-radius: 15px;
    color: black;
@@ -451,12 +451,12 @@ ul#nav li.current a { color: #e083f7; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 25px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #323535;
 }
 
 /* Portfolio Content */
