@@ -245,6 +245,11 @@
       opacity: 85%;
        height:125px; width:125px;
    }
+   .center-logo2{
+  
+      opacity: 90%;
+       height:227px; width:385px;
+   }
    /* About Section
    -------------------------------------------------------------------- */
    #about .profile-pic { display: none; }
@@ -395,6 +400,11 @@
   
       opacity: 85%;
        height:105px; width:105px;
+   }
+   .center-logo2{
+  
+      opacity: 90%;
+       height:153px; width:260px;
    }
    /* header social links */
    header .social { font-size: 20px;}
