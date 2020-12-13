@@ -3,18 +3,6 @@
 *   Ceevee v1.0 Layout Stylesheet
 *   url: styleshout.com
 *   03-18-2014
-=====================================================================
-
-   TOC:
-   a. General Styles
-   b. Header Styles
-   c. About Section
-   d. Services Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
 
 ===================================================================== */
 
@@ -256,10 +244,10 @@ ul#nav li.current a { color: #e083f7; }
 
 
 /* ------------------------------------------------------------------ */
-/* d. Services Section
+/* d. services Section
 /* ------------------------------------------------------------------ */
 
-#Services {
+#services {
    /* background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
@@ -276,46 +264,126 @@ ul#nav li.current a { color: #e083f7; }
    
 }
 
-#Services a, #Services a:visited  { color: #e083f7; }
-#Services a:hover, #Services a:focus { color: #313131; }
+#services a, #services a:visited  { color: #e083f7; }
+#services a:hover, #services a:focus { color: #313131; }
 
-#Services h1 {
+#services h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#Services h1 span {
+#services h1 span {
    border-bottom: 3px solid #e083f7;
    padding-bottom: 6px;
    font-weight: bolder;
    color:#FFFFFF;
 }
-#Services h3 {
+#services h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#Services .header-col { padding-top: 4px; }
-#Services .main-col { padding-right: 10%; }
+#services .header-col { padding-top: 4px; }
+#services .main-col { padding-right: 10%; }
 
-.education, .work {
+.rowArea, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
 }
-#Services .info {
+#services .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#Services .info span {
+#services .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#Services .date {
+#services .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
 
+/*----------------------------------------------*/
+/*	Team section
+/*----------------------------------------------*/
+
+#team {
+   /* background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   background-attachment: fixed; */
+
+   position: relative;
+   min-height: 200px;
+   width: 100%;
+   overflow: hidden;
+
+   background: #ebeeee;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   
+}
+
+#team .avator{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+#team a, #team a:visited  { color: #e083f7; }
+#team a:hover, #team a:focus { color: #313131; }
+#team h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#team .name{
+   margin-top: 12px;
+}
+#team h1 span {
+   border-bottom: 3px solid #928996;
+   padding-bottom: 6px;
+   font-weight: bolder;
+   color:#292727;
+}
+#team h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+#team h4 {
+   color:#292727;
+}
+#team h5 {
+   font: 16px/22px 'opensans-bold', sans-serif;
+   color:#292727;
+}
+#team .header-col { padding-top: 4px; }
+#team .main-col { padding-right: 10%; }
+
+.rowArea, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+}
+
+#team .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+}
+#team .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #36383a;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#team .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#team .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -360,36 +428,7 @@ ul#nav li.current a { color: #e083f7; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
-}
+
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
@@ -446,7 +485,7 @@ ul#nav li.current a { color: #e083f7; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #0f0f0f;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -456,7 +495,7 @@ ul#nav li.current a { color: #e083f7; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #323535;
+   color: #ebeeee;
 }
 
 /* Portfolio Content */

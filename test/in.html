@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	.box{
+		width: 400px;
+		background-color: rgb(99, 34, 112);
+		color:beige;
+        position: relative;
+        border-radius: 18px;
+		
+	}
+	p{
+		line-height: 30px;
+		padding: 10px 10px 0px 10px; 
+	}
+	.element{
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.3s;
+	}
+	#check,#check1, .checkout{
+		display: none;
+	}
+	.checkin, .checkout{
+		cursor: pointer;
+		position: absolute;
+		right: 0px;
+	}
+	.checkin{
+		display: block;
+	}
+	:checked ~ .checkout {
+		display: block;
+	}
+	:checked ~ .checkin {
+		
+		display: none;
+	}
+	:checked ~ .element{
+		max-height: 666px;
+	}
+	.checkin:hover, .checkout:hover{color: red;}
+    </style>
+</head>
+<body>
+    <h1>hello world</h1>
+    <div class="box">
+        <input id="check" type="checkbox">
+        <p>这里是默认显示的22内容这里是默认显示的内容这里是默认显示的内容。</p>
+        <div class="element">
+            <p>这里是默认不显示的内容这里是默认不显示的内容这里是默认不显示的内容这里是默认不显示的内容这里是默认不显示的内容这里是默认不显示的内容这里是默认不显示的内容。</p>
+        </div>
+        <label for="check" class="checkin">展开</label>
+        <label for="check" class="checkout">收起</label>
+	</div>
+	<br>
+	<div class="box">
+        <input id="check1" type="checkbox">
+        <p>这里是默认显示的内容这里是默认显示的内容这里是默认显示的内容。</p>
+        <div class="element">
+            <p>这里是默认不显示的内容这里是默认不显示的内容这里是默认不显示的内容这里是默认不显示的内容这里是默认不显示的内容这里是默认不显示的内容这里是默认不显示的内容。</p>
+        </div>
+        <label for="check1" class="checkin">展开</label>
+        <label for="check1" class="checkout">收起</label>
+	</div>
+	<br>
+	<div class="box">
+        <input id="check" type="checkbox">
+        <p>这里是默认显示的内容这里是默认显示的内容这里是默认显示的内容。</p>
+        <div class="element">
+            <p>这里是默认不显示的内容这里是默认不显示的内容这里是默认不显示的内容这里是默认不显示的内容这里是默认不显示的内容这里是默认不显示的内容这里是默认不显示的内容。</p>
+        </div>
+        <label for="check" class="checkin">展开</label>
+        <label for="check" class="checkout">收起</label>
+    </div>
+</body>
+</html>

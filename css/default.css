@@ -730,7 +730,63 @@ properly.
     height:345px; width:585px;
 }
 
-
+/* 展开收起 */
+.box{
+   margin-top: 18px;
+   width: auto;
+   background-color: rgb(156, 147, 158);
+   color:rgb(12, 12, 11);
+     position: relative;
+     border-radius: 18px;
+   
+}
+p{
+   line-height: 30px;
+   padding: 10px 10px 0px 10px; 
+}
+.element{
+   display:flex;
+   justify-content: space-around ;
+   align-items:center;
+   max-height: 0;
+   padding :0px;
+   overflow: hidden;
+   transition: max-height 0.3s;
+}
+.element audio{
+   margin: 10px;
+   width: 60%;
+}
+.element span{
+   margin-left: 15px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+  
+   max-width: 200px;
+}
+#check,#check1, .checkout{
+   display: none;
+}
+.checkin, .checkout{
+   cursor: pointer;
+   position: absolute;
+   left: 0px;
+   top:-40px;
+}
+.checkin{
+   display: block;
+}
+:checked ~ .checkout {
+   display: block;
+}
+:checked ~ .checkin {
+   display: none;
+}
+:checked ~ .element{
+   max-height: 556px;
+}
+.checkin:hover, .checkout:hover{color: red;}
+/* 展开收起 */
 
 /* smaller screens
 --------------------------------------------------------------- */

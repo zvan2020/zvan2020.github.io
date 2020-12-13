@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .pn{
+        transition: 1.3s;
+        animation: hideIndex 0.3s;
+    }
+</style>
+<body>
+    <div id="pn" class="pn">
+        <p>分类：全部 电影 电视剧 综艺</p>
+        <div id="hpn" class="hpn">
+            <p>地区：大陆 香港 美国 韩国 法国 英国</p>
+            <p>类型：武侠 喜剧 冒险 战争 动画</p>
+            <p>时间：2016 2015 2014 2013 2012 2011 2010 </p>
+        </div>
+    </div>
+    <a href="javascript:void(0);" id="btn" class="btn">展开选项+</a>
+
+    <div id="pn" class="pn">
+        <p>分类：全部 电影 电视剧 综艺</p>
+        <div id="hpn" class="hpn">
+            <p>地区：大陆 香港 美国 韩国 法国 英国</p>
+            <p>类型：武侠 喜剧 冒险 战争 动画</p>
+            <p>时间：2016 2015 2014 2013 2012 2011 2010 </p>
+        </div>
+    </div>
+    <a href="javascript:void(0);" id="btn" class="btn">展开选项+</a>
+
+    <div id="pn" class="pn">
+        <p>分类：全部 电影 电视剧 综艺</p>
+        <div id="hpn" class="hpn">
+            <p>地区：大陆 香港 美国 韩国 法国 英国</p>
+            <p>类型：武侠 喜剧 冒险 战争 动画</p>
+            <p>时间：2016 2015 2014 2013 2012 2011 2010 </p>
+        </div>
+    </div>
+    <a href="javascript:void(0);" id="btn" class="btn">展开选项+</a>
+</body>
+<script type="text/javascript">
+    window.onload=function () {//加载完毕
+        var hidediv=document.getElementById('hpn'),
+            btn=document.getElementById('btn'),
+            hflag=1;//标记是否隐藏
+        btn.onclick=function () {
+            if (hflag) {//当前为收起状态，展开函数
+                hidediv.style.display="block";
+                btn.innerHTML="收起选项-";
+                hflag=0;
+            }else {//当前为展开状态，收起函数
+                 hidediv.style.display="none";
+                 btn.innerHTML="展开选项+";
+                 hflag=1;
+            }    
+        }
+    }
+</script>
+</html>
