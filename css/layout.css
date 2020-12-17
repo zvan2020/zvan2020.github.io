@@ -201,6 +201,15 @@ ul#nav li.current a { color: #e083f7; }
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #e083f7; }
 
+#about h1 {
+   font: 25px/24px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 10px;
+   text-align: center;
+   margin-bottom: 48px;
+   color: #dfdbdb;
+   font-weight: bolder;
+}
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: rgb(15, 15, 15);
@@ -272,6 +281,16 @@ ul#nav li.current a { color: #e083f7; }
    text-transform: uppercase;
    letter-spacing: 1px;
 }
+
+#services .title h1 {
+   font: 25px/24px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 10px;
+   text-align: center;
+   margin-bottom: 48px;
+   color: #dfdbdb;
+   font-weight: bolder;
+}
 #services h1 span {
    border-bottom: 3px solid #e083f7;
    padding-bottom: 6px;
@@ -319,7 +338,7 @@ ul#nav li.current a { color: #e083f7; }
    width: 100%;
    overflow: hidden;
 
-   background: #ebeeee;
+   background: #d9cedf;
    padding-top: 90px;
    padding-bottom: 72px;
    
@@ -337,6 +356,15 @@ flex-wrap: wrap;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
+#team .title h1 {
+   font: 25px/24px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 10px;
+   text-align: center;
+   margin-bottom: 48px;
+   color: #363535;
+   font-weight: bolder;
+}
 #team .name{
    margin-top: 12px;
 }
@@ -345,12 +373,16 @@ flex-wrap: wrap;
    padding-bottom: 6px;
    font-weight: bolder;
    color:#292727;
+   
 }
 #team h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 #team h4 {
    color:#292727;
+   font-style:italic;
+   font-weight:bold;
+   font-size: 18px;
 }
 #team h5 {
    font: 16px/22px 'opensans-bold', sans-serif;
@@ -359,10 +391,7 @@ flex-wrap: wrap;
 #team .header-col { padding-top: 4px; }
 #team .main-col { padding-right: 10%; }
 
-.rowArea, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-}
+
 
 #team .profile-pic {
    position: relative;
@@ -375,10 +404,15 @@ flex-wrap: wrap;
    color: #36383a;
    margin-bottom: 18px;
    margin-top: 9px;
+   text-indent: 2em;
+
+ 
+   
 }
 #team .info span {
    margin-right: 5px;
    margin-left: 5px;
+   text-indent: 2em;
 }
 #team .date {
    font: 15px/24px 'opensans-regular', sans-serif;
@@ -387,6 +421,91 @@ flex-wrap: wrap;
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
+
+
+
+
+#audition {
+ 
+
+   position: relative;
+   min-height: 200px;
+   width: 100%;
+   overflow: hidden;
+
+   background: #212121;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   
+}
+
+#audition a, #services a:visited  { color: #e083f7; }
+#audition a:hover, #services a:focus { color: #313131; }
+#audition .title h1 {
+   font: 25px/24px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 10px;
+   text-align: center;
+   margin-bottom: 48px;
+   color: #cac2c2;
+   font-weight: bolder;
+}
+#audition h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#audition h1 span {
+   border-bottom: 3px solid #e083f7;
+   padding-bottom: 6px;
+   font-weight: bolder;
+   color:#FFFFFF;
+}
+#audition h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#audition .header-col { padding-top: 4px; }
+#audition .main-col { padding-right: 10%; }
+
+
+#audition .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#audition .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#audition .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+#audition .categoryTitle{
+   padding-top: 16px;
+}
+#audition .songArea{
+   
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding :0px;
+}
+
+#audition .songTitle{
+   font: 18px/24px 'opensans-bold', sans-serif;
+   margin-left: 15px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+  color:#c8d4d4;
+   max-width: 200px;
+}
+#audition audio{
+   margin: 10px;
+   width: 60%;
+}
 
 .bars {
 	width: 95%;
@@ -485,17 +604,18 @@ flex-wrap: wrap;
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #0f0f0f;
+   background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
 }
-#portfolio h1 {
+#portfolio .title h1 {
    font: 25px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
-   letter-spacing: 1px;
+   letter-spacing: 10px;
    text-align: center;
    margin-bottom: 48px;
-   color: #ebeeee;
+   color: #312e2e;
+   font-weight: bolder;
 }
 
 /* Portfolio Content */
@@ -707,69 +827,6 @@ call-to-action .button {
 	color: #D8D8D8;
 }
 
-/* ------------------------------------------------------------------
-/* g. Testimonials
-/* ------------------------------------------------------------------ */
-
-#testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
-   background-attachment: fixed;
-
-   position: relative;
-   min-height: 200px;
-   width: 100%;
-   overflow: hidden;
-}
-#testimonials .text-container {
-   padding-top: 96px;
-   padding-bottom: 66px;
-}
-#testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #fff;
-}
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
-   font-family: 'FontAwesome';
-   content: "\f10d";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #fff;
-}
-
-/*	Blockquotes */
-#testimonials blockquote {
-   margin: 0 0px 30px 0px;
-   padding-left: 0;
-   position: relative;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-}
-#testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
-   font-family: 'librebaskerville-italic', serif;
-   padding: 0;
-   font-size: 24px;
-   line-height: 48px;
-   color: #fff
-}
-#testimonials blockquote cite {
-   display: block;
-   font-size: 12px;
-   font-style: normal;
-   line-height: 18px;
-   color: #fff;
-}
-#testimonials blockquote cite:before { content: "\2014 \0020"; }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -877,6 +934,15 @@ call-to-action .button {
    letter-spacing: 3px;
    color: #EBEEEE;
    margin-bottom: 6px;
+}
+#contact .title h2 {
+   font: 25px/24px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 10px;
+   text-align: center;
+   margin-bottom: 48px;
+   color: #d1c4c4;
+   font-weight: bolder;
 }
 #contact h1 span { display: none; }
 #contact h1:before {
