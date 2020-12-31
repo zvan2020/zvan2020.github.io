@@ -233,7 +233,7 @@ ul#nav li.current a { color: #e083f7; }
 }
 #about .main-col { 
    padding-right: 5%;
-   background-color: rgba(241, 211, 248, 0.767);
+   background-color: rgba(241, 211, 248, 0.582);
    padding-top: 20px;
    border-radius: 15px;
    color: black;
@@ -306,7 +306,7 @@ ul#nav li.current a { color: #e083f7; }
 
 .rowArea, .work {
    margin-bottom: 48px;
-   padding-bottom: 24px;
+   
 }
 #services .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -402,12 +402,9 @@ flex-wrap: wrap;
 #team .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #36383a;
-   margin-bottom: 18px;
-   margin-top: 9px;
+   padding:0 0;
+   margin: 0 0;
    text-indent: 2em;
-
- 
-   
 }
 #team .info span {
    margin-right: 5px;
@@ -1077,6 +1074,7 @@ footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
 footer .copyright {
+   color:#8a8686;
     margin: 0;
     padding: 0;
  }
