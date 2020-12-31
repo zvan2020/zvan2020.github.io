@@ -472,6 +472,22 @@
    
        -webkit-text-fill-color:transparent;
    }
+
+   #audition .songArea{
+      width: 200px;
+      display:inline;
+      justify-content:space-between;
+      align-items:center;
+     
+}
+
+#audition .item{
+    margin-top: 25px;
+}
+#audition audio{
+   width: 90%;
+  
+}
    /* footer
    ------------------------------------------------------------------------ */
 

@@ -403,12 +403,16 @@ flex-wrap: wrap;
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #36383a;
    padding:0 0;
-   margin: 0 0;
+   margin: 20px 15px;
    text-indent: 2em;
 }
 #team .info span {
    margin-right: 5px;
    margin-left: 5px;
+   text-indent: 2em;
+}
+
+#team .element .extentContent{
    text-indent: 2em;
 }
 #team .date {
