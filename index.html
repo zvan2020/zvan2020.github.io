@@ -574,7 +574,7 @@
                <div class="songArea">
                   <span class="songTitle">《西楚本色》</span>
                   <audio controls="controls">
-                     <source src="xichubense.mp3" type="audio/mp3" />
+                     <source src="http://nightingale-audios.oss-cn-beijing.aliyuncs.com/nightingale/L-059.mp3?Expires=1609716735&OSSAccessKeyId=LTAI4G6EDrqvt1xhdeJAvczv&Signature=Mss7c5VrCYuOkWOQUDvYPpswLGY%3D" type="audio/mp3" />
                   </audio>
                </div>
             </div>
@@ -1028,11 +1028,27 @@
 
          <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a>
          </div>
-
+　
       </div>
 
-   </footer> <!-- Footer End-->
+   </footer> <!-- Footer End-->∏
+<script>
 
+
+var audios = document.getElementsByTagName("audio");
+// 暂停函数
+function pauseAll() {
+    var self = this;
+    [].forEach.call(audios, function (i) {
+        // 将audios中其他的audio全部暂停
+        i !== self && i.pause();
+    })
+}
+// 给play事件绑定暂停函数
+[].forEach.call(audios, function (i) {
+    i.addEventListener("play", pauseAll.bind(i));
+})
+</script>
    <!-- Java Script
    ================================================== -->
    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
